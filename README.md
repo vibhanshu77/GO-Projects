@@ -30,7 +30,3 @@ Or run the movies API:
 cd 02-movies-crud
 go run .
 ```
-
-The web server listens on port `8080`; the movies API listens on port `8000`.
-See the linked project READMEs for routes, examples, and project-specific
-details.
