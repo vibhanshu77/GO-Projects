@@ -1,0 +1,33 @@
+GET http://localhost:8000/movies
+
+
+# GET http://localhost:8000/movies/2
+
+
+# POST http://localhost:8000/movies
+
+# {
+#     "id": "3",
+#     "isbn": "4234234",
+#     "title": "Movie Three",
+#     "director": {
+#       "firstname": "Alfred",
+#       "lastname": "Hitchcock"
+#     }
+# }
+
+
+# PUT http://localhost:8000/movies/2
+
+# {
+#     "id": "2",
+#     "isbn": "2534345",
+#     "title": "Movie Two",
+#     "director": {
+#       "firstname": "Woody",
+#       "lastname": "Allen"
+#     }
+# }
+
+
+DELETE http://localhost:8000/movies/3
